@@ -1,0 +1,139 @@
+.head-banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/banner.jpeg);
+    background-size: cover;
+}
+.head-banner .banner-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50px;
+    animation: slideinLeft 1.5s linear;
+}
+.head-banner .banner-content h4 {
+    font-size: 30px;
+}
+.head-banner .banner-content h1 {
+    font-size: 50px;
+}
+.head-banner .banner-content h1 span {
+    color: var(--third-color);
+}
+.head-banner .banner-content a {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.head-banner .banner-content a:hover {
+    color: var(--third-color);
+}
+.body {
+    padding-top: 50px;
+}
+.body-content {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.upcoming {
+    background-image: url(img/background4.webp);
+    background-size: cover;
+}
+
+.list-movie {
+    width: 100%;
+    gap: 20px;
+    margin-top: 20px;
+    display: flex;
+    overflow-x: scroll;
+    padding-bottom: 50px;
+}
+.movie-card {
+    min-width: 20%;
+}
+.promote {
+    background-image: url(img/background2.jpg);
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.promote .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.promote .email-input {
+    display: flex;
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+.promote .email-input input {
+    background-color: transparent;
+    border: none;
+    margin-right: 20px;
+    padding: 10px;
+    outline: none;
+}
+.promote .email-input button {
+    margin-top: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    background-color: var(--secondary-color);
+    color: var(--third-color);
+}
+.promote .email-input button p {
+    font-size: 16px;
+    margin: 0;
+}
+.promote .email-input button:hover p {
+    z-index: 2;
+    color: var(--secondary-color);
+}
+.promote .content h2 {
+    color: var(--third-color);
+}
+@media (max-width: 992px) {
+    .head-banner {
+        height: 500px;
+    }
+    .head-banner .banner-content {
+        position: absolute;
+        text-align: center;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .head-banner .banner-content h4 {
+        font-size: 20px;
+    }
+    .head-banner .banner-content h1 {
+        font-size: 30px;
+    }
+    .head-banner .banner-content h1 span {
+        color: var(--third-color);
+    }
+    .head-banner .banner-content a {
+        font-size: 10px;
+        margin-right: 10px;
+    }
+    .header .menu {
+        margin-left: 20px;
+    }
+    .body {
+        padding-top: 10px;
+    }
+    .body-content {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .list-movie {
+        padding-bottom: 10px;
+    }
+}

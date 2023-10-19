@@ -1,0 +1,82 @@
+.head-banner {
+    width: 100%;
+    height: 30vh;
+    background-image: url(img/background2.jpg);
+    background-size: cover;
+    position: relative;
+}
+.head-banner .banner-content {
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    left: 150px;
+}
+.head-banner .banner-content h2 {
+    font-size: 40px;
+}
+.head-banner .banner-content h4 {
+    color: var(--primary-color);
+}
+.body {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.list-movie {
+    width: 100%;
+    gap: 20px;
+    margin-top: 20px;
+    display: flex;
+    overflow-x: scroll;
+    padding-bottom: 10px;
+}
+.movie-card {
+    min-width: 20%;
+}
+.body-content {
+    display: flex;
+    width: 100%;
+}
+.body-content .people-image {
+    position: relative;
+    width: 30%;
+    height: 50%;
+    margin-right: 50px;
+    border-radius: 20px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.body-content .people-image .personal-info {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.392);
+    position: absolute;
+    top: 0;
+    left: -300px;
+    padding: 20px;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+.body-content .people-image:hover .personal-info {
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.personal-content {
+    margin-top: 20px;
+    margin-top: 20px;
+}
+.personal-content h5 {
+    font-size: 20px;
+}
+.people-info {
+    width: 60%;
+}
+.name h3 {
+    font-size: 30px;
+}
+h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}

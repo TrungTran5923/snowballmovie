@@ -1,0 +1,14 @@
+.body {
+    margin-top: 30px;
+}
+.movie-card {
+    text-align: center;
+}
+.movie-subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.movie-subtitle i {
+    color: var(--third-color);
+}
